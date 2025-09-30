@@ -8,14 +8,13 @@ body
     background-color: #d2b48c;
     color: black;
 }
-.darkmode
+.dark-mode
 {
     background-color: black;
     color: white;
     .button
     {
         background-color: #d2b48c;
-
     }
 }
 #description
@@ -29,4 +28,17 @@ body
     top:0;
     left:0;
 }
-
+.games
+{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.headers
+{
+    margin-left: 25px;
+}
+.game-descriptions
+{
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
