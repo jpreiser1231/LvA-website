@@ -1,0 +1,32 @@
+#header
+{
+    text-align: center;
+    font-size: 95px;
+}
+body
+{
+    background-color: #d2b48c;
+    color: black;
+}
+.darkmode
+{
+    background-color: black;
+    color: white;
+    .button
+    {
+        background-color: #d2b48c;
+
+    }
+}
+#description
+{
+    padding-left: 25px;
+    font-size: 55px;
+}
+.button
+{
+    position:fixed;
+    top:0;
+    left:0;
+}
+
