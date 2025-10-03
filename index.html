@@ -7,7 +7,7 @@
     <script src="index.js"></script>
 </head>
 <body id = "body">
-<button type = "button" class = "button" onclick = "switchStyle()">
+<button type = "button" id="button" onclick = "switchStyle()">
     🌙
 </button>
 <h1 id = "header">
@@ -16,25 +16,31 @@
 <h3 id = "description">
     A Gautemalan software developer and entrepreneur
 </h3>
-<div class = "carousel-container">
-    <button class = "prev-image" onclick = "">⬅️</button>
-    <img id = "image" src="images/LVA1.png">
-    <button class = "next-image" onclick = "nextImg()">➡️</button>
+<div id = "caro-and-toc">
+    <div class = "carousel-container">
+        <div id = "img-and-button">
+            <button class = "change-image" onclick = "prevImg()">⬅️</button>
+            <img id = "image" src="images/LVA1.png">
+            <button class = "change-image" onclick = "nextImg()">➡️</button>
+        </div>
+        <div id = "img-number">Image 1 of 4</div>
+    </div>
+
+<div id = "toc">
+    <h2>
+        Table of Contents
+    </h2>
+    <ol type = "I">
+        <li> <a href = #founded-comp-invention>Companies and inventions</a> </li>
+        <li><a href = #ed-early-life>Education and early life</a></li>
+        <li><a href = #research-inno>Research and Innovation</a></li>
+        <li><a href = #duolingo-ceo>Duolingo CEO</a></li>
+    </ol>
 </div>
 
+</div>
 
-
-
-<h2>
-    Table of Contents
-</h2>
-<ol type = "I">
-    <li>Founded Companies and inventions</li>
-    <li>Education and early life</li>
-    <li>Research and Innovation</li>
-    <li>Duolingo CEO</li>
-</ol>
-<h4 class = "headers">
+<h4 id = "founded-comp-invention" class = "headers">
     Founded Companies and inventions
 </h4>
 <div class = "games">
@@ -46,14 +52,14 @@
 <div class = "game-descriptions">A human verification tool as well as a book digitizer</div>
 <a class = "games" href = "https://en.wikipedia.org/wiki/Duolingo"> Duolingo</a>
 <div class = "game-descriptions">A language learning application</div>
-<h4 class = "headers">
+<h4 id = "ed-early-life" class = "headers">
     Education and Early Life
 </h4>
 <div class = "games">
     Luis von Ahn was born and grew up in Guatemala City. When he was eight, his mother bought him a Commodore 64, which fueled his start into the field of computer science. Von Ahn earned a BS in Mathematics in 2000 from Duke and a PhD in Computer Science in 2005 from Carnegie Mellon where he later became a faculty member in 2006.
 </div>
 
-<h4 class = "headers">
+<h4 id = "research-inno" class = "headers">
     Research and Innovation
 </h4>
 <div class = "games">
@@ -61,7 +67,7 @@
 
     In 2007, von Ahn used his research on CAPTCHAs to develop reCAPTCHA, a form of CAPtCHA that also digitizes books. Images of words from books are displayed to the user to transcribe. Two images were shown, one was to transcribe the other was to verify the user. If a word is transcribed by many humans to the same word but not matching computer generations, the word gets added to the verification database. Google later bought reCAPTCHA for an undisclosed amount. Luis von Ahn and a graduate student started to work on a language education platform. They founded a company called Duolingo with von Ahn as the CEO and Severin Hacker, the graduate assistant, as CTO.
 </div>
-<h4 class = "headers">
+<h4 id = "duolingo-ceo" class = "headers">
     Duolingo CEO
 </h4>
 <div class = "games">

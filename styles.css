@@ -12,21 +12,32 @@ body
 {
     background-color: black;
     color: white;
-    .button
+    #button
     {
         background-color: #d2b48c;
     }
+    a
+    {
+        color: #72c900
+    }
+}
+#image
+{
+    width: 400px;
+    height: 400px;
 }
 #description
 {
     padding-left: 25px;
     font-size: 55px;
 }
-.button
+#button
 {
     position:fixed;
     top:0;
     left:0;
+    background-color: black;
+    font-size: 25px;
 }
 .games
 {
@@ -47,3 +58,36 @@ body
     margin-left: 25px;
     margin-top: 75px;
 }
+.change-image
+{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+}
+#img-and-button
+{
+    display: flex;
+}
+#caro-and-toc
+{
+    display: flex;
+}
+#img-number
+{
+    margin: auto;
+    width: fit-content;
+}
+.change-image
+{
+    margin: auto;
+    height: fit-content;
+}
+#toc
+{
+    margin: auto;
+    height: fit-content;
+    font-size: x-large;
+}
+
