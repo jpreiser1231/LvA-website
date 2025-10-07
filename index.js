@@ -1,15 +1,11 @@
 function switchStyle() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-    var curSymbol = "moon";
-    if(curSymbol === "moon") {
-        curSymbol = "sun";
+    if(document.getElementById("button").innerHTML === "🌙") {
         document.getElementById("button").innerHTML = "☀️";
     }
-    else if(curSymbol === "sun") {
-        curSymbol = "moon";
+    else if(document.getElementById("button").innerHTML === "☀️") {
         document.getElementById("button").innerHTML = "🌙";
-
     }
 }
 var currIndex = 0;
