@@ -73,6 +73,7 @@ body
 }
 #caro-and-toc
 {
+    justify-content: space-around;
     display: flex;
 }
 #img-number
@@ -87,7 +88,6 @@ body
 }
 #toc
 {
-    margin: auto;
     height: fit-content;
     font-size: x-large;
 }
